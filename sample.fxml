@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myfx.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="390.0" prefWidth="526.0">
+            <children>
+                <Button fx:id="btn_1" layoutX="152.0" layoutY="349.0" mnemonicParsing="false" onAction="#EnToZh" prefHeight="41.0" prefWidth="101.0" text="英译汉" />
+                <TextArea fx:id="text1" layoutX="10.0" layoutY="14.0" prefHeight="317.0" prefWidth="219.0" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></TextArea>
+                <TextArea fx:id="text2" layoutX="297.0" layoutY="14.0" prefHeight="317.0" prefWidth="228.0" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></TextArea>
+            <Button fx:id="btn_2" layoutX="273.0" layoutY="349.0" mnemonicParsing="false" onAction="#ZhToEn" prefHeight="41.0" prefWidth="101.0" text="汉译英" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
