@@ -40,8 +40,8 @@ public class Controller {
     private static final int SUCCESS_CODE = 200;
     private static final String url="https://fanyi-api.baidu.com/api/trans/vip/translate";
     private static final String salt = "MyFirst";
-    private static final String appid = "20211130001014072";
-    private static final String secretKey  = "x7d8da769GRcKi_aYEGa";
+    private static final String appid = "";//填入你自己的id
+    private static final String secretKey  = "";//密钥
     private List<NameValuePair> list = new ArrayList<>();
 
 
